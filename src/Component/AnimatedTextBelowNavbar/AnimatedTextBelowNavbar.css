@@ -1,0 +1,30 @@
+.animated-text-below-navbar {
+    position: absolute;
+    top: 60px; /* Adjust as needed to position it just below the Navbar */
+    left: 0;
+    width: 100%; /* Set width to 100% */
+    color: white; /* Set default text color */
+    font-size: 24px; /* Set font size */
+    overflow: hidden; /* Hide overflowing text */
+    white-space: nowrap;
+    background-color:#d91313;
+    
+}
+  
+  
+  .night-mode .animated-text-below-navbar {
+    background-color: #d91313; /* Set background color for night mode */
+  }
+  
+  .text-container {
+    animation: slideFromRight 10s linear infinite; /* Update animation duration */
+  }
+  
+  @keyframes slideFromRight {
+    0% {
+      transform: translateX(100%); /* Start position */
+    }
+    100% {
+      transform: translateX(-100%); /* End position */
+    }
+  }
